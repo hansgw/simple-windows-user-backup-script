@@ -50,7 +50,7 @@ echo. >> "%logfile%"
 echo. >> "%logfile%"
 echo %TIME% New backup started by https://github.com/hansgw/simple-windows-user-backup-script >> "%logfile%"
 robocopy ^
-  "%source%\Desktoxp" ^
+  "%source%" ^
   "%target%" ^
   /mir ^
   /np ^
